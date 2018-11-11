@@ -21,5 +21,5 @@ name: app
 shaded: true
  Y: : y
 
-cd /tmp/app ; mvn -N io.takari:maven:wrapper -Dmaven=3.5.4
+cd ./app ; mvn -N io.takari:maven:wrapper -Dmaven=3.5.4 ; ./mvnw package
 ```
