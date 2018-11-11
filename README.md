@@ -3,12 +3,12 @@ Maven archetype:generate dropwizard
 
 ```bash
 cd /tmp
-./mvnw archetype:generate -DarchetypeGroupId=io.dropwizard.archetypes \
-                          -DarchetypeVersion=1.1.0 -DarchetypeArtifactId=java-simple \
-                          -DgroupId=com.github.daggerok \
-                          -Dversion=1.0.0-SNAPSHOT \
-                          -DartifactId=app \
-                          -Dname=app
+mvn archetype:generate -DarchetypeGroupId=io.dropwizard.archetypes \
+                       -DarchetypeVersion=1.1.0 -DarchetypeArtifactId=java-simple \
+                       -DgroupId=com.github.daggerok \
+                       -Dversion=1.0.0-SNAPSHOT \
+                       -DartifactId=app \
+                       -Dname=app
 
 # output / confirm:
 Confirm properties configuration:
