@@ -8,7 +8,7 @@ mvn archetype:generate -DarchetypeGroupId=io.dropwizard.archetypes \
                        -DgroupId=com.github.daggerok \
                        -Dversion=1.0.0-SNAPSHOT \
                        -DartifactId=app \
-                       -Dname=app
+                       -Dname=Nice
 
 # output / confirm:
 Confirm properties configuration:
